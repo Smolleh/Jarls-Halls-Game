@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DnD Text Game Demo</title>
+  <style>
+  #game {
+    white-space: pre-wrap; /* preserves line breaks but wraps long text */
+    word-wrap: break-word; /* breaks really long words if needed */
+    max-width: 800px;      /* optional: limit width */
+    margin-bottom: 20px;   /* space below text */
+  }
+
+  button {
+    display: block;        /* stack buttons vertically */
+    margin: 5px 0;         /* space between buttons */
+  }
+</style>
+</head>
+<body>
+  <pre id="game"></pre>
+  <div id="choices"></div>
+
+  <script src="main.js"></script>
+</body>
+</html>
