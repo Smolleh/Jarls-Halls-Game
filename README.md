@@ -6,3 +6,5 @@ To access the game:
 3. go into vscode
 4. press clone repository on the main menu
 5. click jarls-halls-game
+
+Once installed on your device simply load the html file by clicking on it.
